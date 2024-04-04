@@ -61,3 +61,5 @@ new_data_scaled = scaler.transform(new_data)
 # Predicting playoff status for new data
 predicted_playoffs = model.predict(new_data_scaled)
 print("Predicted playoffs status for new data:", predicted_playoffs)
+
+print("Go Brewers")
